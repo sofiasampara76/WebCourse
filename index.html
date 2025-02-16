@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebPage</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <section class="banner">
-        <header>
-            <h3 class="logo"><span>JEZ</span>  SALAD</h3>
+        <header class="banner-header">
+            <h3 class="logo"><span class="orange">JEZ</span>  SALAD</h3>
             <nav class="header-links">
-                <a href="#">Home</a>
+                <a class="main-href" href="#">Home</a>
                 <a href="#">Menu</a>
                 <a href="#">Contact</a>
                 <a href="#">About Us</a>
@@ -22,21 +25,26 @@
                 <div class="left-corner-text">
                     <span>#1 Best Healthy Salad</span>
                 </div>
-                <h1><span>Skip</span> The Diet, Just Eat Healthy With Jez Salad</h1>
-                <p>Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
-                <a href="#" class="order-button">Order Food</a>
+                <h1><span class="orange">Skip</span> The Diet, Just Eat Healthy With Jez Salad</h1>
+                <div class="p-div">
+                    <p class="main-text">Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
+                </div>
+                <div class="order-button">
+                    <a href="#">Order Food</a>
+                </div>
+                    
                 <div class="summary-info-section">
                     <div class="summary-info">
-                        <span>5.000+</span>
-                        <span>Customer</span>
+                        <span class="number-plus">5.000+</span>
+                        <span class="text-plus">Customer</span>
                     </div>
                     <div class="summary-info">
-                        <span>8.000+</span>
-                        <span>Delivery</span>
+                        <span class="number-plus">8.000+</span>
+                        <span class="text-plus">Delivery</span>
                     </div>
                     <div class="summary-info">
-                        <span>10.000+</span>
-                        <span>Ratings</span>
+                        <span class="number-plus">10.000+</span>
+                        <span class="text-plus">Ratings</span>
                     </div>
                 </div>
             </section>
@@ -44,107 +52,141 @@
                 <img class="woman-picture" src="images/Illustration.png" alt="Picture of a woman">
                 <div class="emoji-container">
                     <img class="happy-emoji" src="images/ya.png" alt="Happy emoji">
-                    <span>Our Happy Customer</span>
-                    <img class="star-image" src="images/Star.svg" alt="A star">
-                    <span><b>4.9</b>  (1.989 Reviews)</span>
+                    <div class="happy-emoji-text">
+                        <span class="main-text-happy">Our Happy Customer</span>
+                        <div>
+                            <img class="star-image" src="images/Star.svg" alt="A star">
+                            <span class="happy-review"><b>4.9</b>  (1.989 Reviews)</span>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="daily-calories-container">
-                    <span>Daily Calories</span>
-                    <span>123 Cal</span>
+                    <span class="text1">Daily Calories</span>
+                    <span class="text2">123 Cal</span>
                     <div class="progress-bars">
-                        <progress value="50" max="100"></progress>
-                        <progress value="30" max="100"></progress>
-                        <progress value="40" max="100"></progress>
-                        <progress value="60" max="100"></progress>
-                        <progress value="50" max="100"></progress>
-                        <progress value="70" max="100"></progress>
-                        <progress value="90" max="100"></progress>
-                        <progress value="85" max="100"></progress>
+                        <div class="progress-container">
+                            <div class="progress" style="height: 50%;"></div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress" style="height: 30%;"></div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress" style="height: 40%;"></div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress" style="height: 60%;"></div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress" style="height: 50%;"></div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress" style="height: 70%;"></div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress" style="height: 90%;"></div>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress" style="height: 85%;"></div>
+                        </div>
                     </div>
+                    
                 </div>
             </aside>
         </main>  
     </section>
     <section class="benefits">
         <header class="benefits-header">
-            <h2>WHY CHOOSE US FOR <span>YOUR HEALTHY FOOD</span></h2>
+            <h2>WHY CHOOSE US<br>FOR <span class="orange">YOUR HEALTHY FOOD</span></h2>
             <p>We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.</p>
         </header>
         <main class="benefits-main">
-            <article>
+            <article class="article-card">
                 <img class="article-image" src="images/CityIcon.svg" alt="Image of a building">
-                <h4>Own fruit orchard</h4>
-                <p>Langsung dari Kebun Sendiri yang tersebar di setiap provinsi yang memiliki cabang toko Jez Salad.</p>
-                <div class="article-button-container">
-                    <a href="#" class="article-button">Learn more<img class="article-button-icon" src="images/ArrowRight.svg" alt="Right arrow icon"></a>
+                <div class="card-text">
+                    <h4>Own fruit orchard</h4>
+                    <p>Langsung dari Kebun Sendiri yang tersebar di setiap provinsi yang memiliki cabang toko Jez Salad.</p>
+                    <div class="article-button-container">
+                        <a href="#" class="article-button">Learn more</a>
+                        <img class="article-button-icon" src="images/ArrowRight.svg" alt="Right arrow icon">
+                    </div>
                 </div>
             </article>
-            <article>
+            <article class="article-card">
                 <img class="article-image" src="images/1Icon.svg" alt="Image of the number one">
-                <h4>#1 Healthy Fruit Salad</h4>
-                <p>The pioneer of healthy fruit salads that are delicious & suitable for all people with the best quality assurance.</p>
-                <div class="article-button-container">
-                    <a href="#" class="article-button">Learn more<img class="article-button-icon" src="images/ArrowRight.svg" alt="Right arrow icon"></a>
+                <div class="card-text">
+                    <h4>#1 Healthy Fruit Salad</h4>
+                    <p>The pioneer of healthy fruit salads that are delicious & suitable for all people with the best quality assurance.</p>
+                    <div class="article-button-container">
+                        <a href="#" class="article-button">Learn more</a>
+                        <img class="article-button-icon" src="images/ArrowRight.svg" alt="Right arrow icon">
+                    </div>
                 </div>
             </article>
-            <article>
+            <article class="article-card">
                 <img class="article-image" src="images/CupIcon.svg" alt="Image of a building">
-                <h4>100 Top Brand</h4>
-                <p>We are one of the best brands in the Food and Beverage sector in Indonesia.</p>
-                <div class="article-button-container">
-                    <a href="#" class="article-button">Learn more<img class="article-button-icon" src="images/ArrowRight.svg" alt="Right arrow icon"></a>
+                <div class="card-text">
+                    <h4>100 Top Brand</h4>
+                    <p>We are one of the best brands in the Food and Beverage sector in Indonesia.</p>
+                    <div class="article-button-container">
+                        <a href="#" class="article-button">Learn more</a>
+                        <img class="article-button-icon" src="images/ArrowRight.svg" alt="Right arrow icon">
+                    </div>
                 </div>
             </article>
         </main>
     </section>
     <section class="comments">
-        <aside class="comments-info">
-            <h2 class="comments-header">What Are People Saying <span>About Us</span></h2>
-            <p>We are very happy if you are satisfied with our service and products, let's read pure reviews from customers who bought our products.</p>
-            <div class="no-of-article">
-                <span>02</span>
-                <span>/ 05</span>
-            </div>
-            <section class="slide-buttons-container">
-                <div class="slide-button-container">
-                    <a href="#"><img class="left-button-icon" src="images/LeftArrowWhite.svg" alt="Left arrow icon"></a>
+        <div class="comments-content">
+            <aside class="comments-info">
+                <h2 class="comments-header">What Are People Saying <span class="orange">About Us</span></h2>
+                <p>We are very happy if you are satisfied with our service and products, let's read pure reviews from customers who bought our products.</p>
+                <div class="no-of-article">
+                    <span class="big">02</span>
+                    <span class="small">/ 05</span>
                 </div>
-                <div class="slide-button-container">
-                    <a href="#"><img class="right-button-icon" src="images/RightArrowWhite.svg" alt="Right arrow icon"></a>
-                </div>
-            </section>
-        </aside>
-        <main class="comments">
-            <article class="comment-card">
-                <img class="comment-image" src="images/CommentImage1.svg" alt="Photo of a person">
-                <section class="comment-body">
-                    <h5 class="comment-name">Selena Gomz</h5>
-                    <span class="comment-age">22 Years</span>
-                    <p class="comment-text">The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality.</p>
+                <section class="slide-buttons-container">
+                    <div class="slide-button-container">
+                        <a href="#"><img class="button-icon" src="images/LeftArrowWhite.svg" alt="Left arrow icon"></a>
+                    </div>
+                    <div class="slide-button-container">
+                        <a href="#"><img class="button-icon" src="images/RightArrowWhite.svg" alt="Right arrow icon"></a>
+                    </div>
                 </section>
-            </article>
-            <article class="comment-card">
-                <img class="comment-image" src="images/CommentImage2.svg" alt="Photo of a person">
-                <section class="comment-body">
-                    <h5 class="comment-name">David Ken</h5>
-                    <span class="comment-age">24 Years</span>
-                    <p class="comment-text">The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality.</p>
-                </section>
-            </article>
-            <article class="comment-card">
-                <img class="comment-image" src="images/CommentImage3.svg" alt="Photo of a person">
-                <section class="comment-body">
-                    <h5 class="comment-name">Jennifer Sina</h5>
-                    <span class="comment-age">21 Years</span>
-                    <p class="comment-text">The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality.</p>
-                </section>
-            </article>
-        </main>
+            </aside>
+            <main class="comments-section">
+                <article class="comment-card">
+                    <img class="comment-image" src="images/CommentImage1.svg" alt="Photo of a person">
+                    <section class="comment-body">
+                        <h5 class="comment-name">Selena Gomz</h5>
+                        <span class="comment-age">22 Years</span>
+                        <p class="comment-text">The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality.</p>
+                    </section>
+                </article>
+                <article class="comment-card">
+                    <img class="comment-image" src="images/CommentImage2.svg" alt="Photo of a person">
+                    <section class="comment-body">
+                        <h5 class="comment-name">David Ken</h5>
+                        <span class="comment-age">24 Years</span>
+                        <p class="comment-text">The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality.</p>
+                    </section>
+                </article>
+                <article class="comment-card">
+                    <img class="comment-image" src="images/CommentImage3.svg" alt="Photo of a person">
+                    <section class="comment-body">
+                        <h5 class="comment-name">Jennifer Sina</h5>
+                        <span class="comment-age">21 Years</span>
+                        <p class="comment-text">The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality.</p>
+                    </section>
+                </article>
+            </main>
+        </div>
     </section>
     <section class="menu">
         <header class="menu-header">
-            <h6>MENU YANG MEMBUATMU JATUH CINTA</h6>
-            <h1 class="menu-header">ENJOY THE BEST MENU AND GET <span>DISCOUNTS AVAILABLE</span></h1>
+            <h6 class="orange">MENU YANG MEMBUATMU JATUH CINTA</h6>
+            <h1>ENJOY THE BEST MENU AND GET</h1>
+            <h1><span class="orange">DISCOUNTS</span> AVAILABLE</h1>
         </header>
         <main class="menu-main">
             <article class="menu-item-card">
@@ -185,19 +227,19 @@
     </section>
     <footer class="footer">
         <section class="about-section">
-            <h3 class="logo"><span>JEZ</span>  SALAD</h3>
+            <h3 class="logo"><span class="orange">JEZ</span>  SALAD</h3>
             <p class="brand-description">Jez Salad is the pioneer of healthy fruit salad with high nutrition.</p>
             <span class="copyright">©Copyright Jez Salad</span>
         </section>
         <section class="feature-section">
-            <span class="feature-list-name">Feature</span>
+            <span class="one-section-name">Feature</span>
             <a href="#">Menu</a>
             <a href="#">Promo</a>
             <a href="#">Contact</a>
             <a href="#">About us</a>
         </section>
         <section class="contact-section">
-            <span class="contact-list-name">Get in touch</span>
+            <span class="one-section-name">Get in touch</span>
             <div class="contact-info-container">
                 <img class="contact-icon" src="images/LocationIcon.svg" alt="Location icon">
                 <span class="contact-info">8819 Ohio St. South Gate, CA 90280</span>
