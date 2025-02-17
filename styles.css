@@ -155,8 +155,8 @@ html, body {
     width: 50%;
     height: 100%;
     display: block; */
-    width: 110%; /* Makes it responsive */
-    height: auto; /* Maintains aspect ratio */
+    width: 110%;
+    height: auto;
     display: block;
     right: -10%;
 }
@@ -229,16 +229,10 @@ html, body {
     border-radius: 30px;
 }
 
-@media (max-width: 1400px) {  /* Adjust threshold as needed */
+@media (max-width: 1400px) {
     .emoji-container {
-        bottom: 30%;  /* Moves it up */
+        bottom: 30%;
     }
-
-    /* .daily-calories-container {
-        width: 90%;
-        right: 5%;
-        bottom: auto; /* Remove fixed posi
-    } */
 }
 
 .text1 {
